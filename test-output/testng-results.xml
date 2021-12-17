@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-31T17:22:37 IST" name="TestSuite" finished-at="2021-03-31T17:35:48 IST" duration-ms="791047">
+    <groups>
+      <group name="Regression">
+        <method signature="Base.employeePaidLeave()[pri:0, instance:source_package.Base@69453e37]" name="employeePaidLeave" class="source_package.Base"/>
+        <method signature="Base.employeeReturnFromPaidLeave()[pri:0, instance:source_package.Base@69453e37]" name="employeeReturnFromPaidLeave" class="source_package.Base"/>
+        <method signature="Base.rehire()[pri:0, instance:source_package.Base@69453e37]" name="rehire" class="source_package.Base"/>
+        <method signature="Base.termination()[pri:0, instance:source_package.Base@69453e37]" name="termination" class="source_package.Base"/>
+        <method signature="Base.employeePaidLeave()[pri:0, instance:source_package.Base@1757cd72]" name="employeePaidLeave" class="source_package.Base"/>
+        <method signature="Base.employeeReturnFromPaidLeave()[pri:0, instance:source_package.Base@1757cd72]" name="employeeReturnFromPaidLeave" class="source_package.Base"/>
+        <method signature="Base.rehire()[pri:0, instance:source_package.Base@1757cd72]" name="rehire" class="source_package.Base"/>
+        <method signature="Base.termination()[pri:0, instance:source_package.Base@1757cd72]" name="termination" class="source_package.Base"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Base.changeDepartment()[pri:0, instance:source_package.Base@69453e37]" name="changeDepartment" class="source_package.Base"/>
+        <method signature="Base.modifyPerson()[pri:0, instance:source_package.Base@69453e37]" name="modifyPerson" class="source_package.Base"/>
+        <method signature="Base.changeDepartment()[pri:0, instance:source_package.Base@1757cd72]" name="changeDepartment" class="source_package.Base"/>
+        <method signature="Base.modifyPerson()[pri:0, instance:source_package.Base@1757cd72]" name="modifyPerson" class="source_package.Base"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-03-31T17:22:37 IST" name="ChromeTest" finished-at="2021-03-31T17:28:58 IST" duration-ms="380496">
+      <class name="source_package.Base">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:22:37 IST" name="invokeBrowser" finished-at="2021-03-31T17:22:59 IST" duration-ms="21542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="changeDepartment()[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:22:59 IST" name="changeDepartment" finished-at="2021-03-31T17:23:43 IST" duration-ms="43778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeDepartment -->
+        <test-method is-config="true" signature="close()[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:23:43 IST" name="close" finished-at="2021-03-31T17:23:44 IST" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:23:44 IST" name="invokeBrowser" finished-at="2021-03-31T17:24:06 IST" duration-ms="21493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="employeePaidLeave()[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:24:06 IST" name="employeePaidLeave" finished-at="2021-03-31T17:24:49 IST" duration-ms="43708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeePaidLeave -->
+        <test-method is-config="true" signature="close()[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:24:49 IST" name="close" finished-at="2021-03-31T17:24:50 IST" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:24:50 IST" name="invokeBrowser" finished-at="2021-03-31T17:25:11 IST" duration-ms="21183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="employeeReturnFromPaidLeave()[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:25:11 IST" name="employeeReturnFromPaidLeave" finished-at="2021-03-31T17:25:51 IST" duration-ms="39512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeReturnFromPaidLeave -->
+        <test-method is-config="true" signature="close()[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:25:51 IST" name="close" finished-at="2021-03-31T17:25:52 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:25:52 IST" name="invokeBrowser" finished-at="2021-03-31T17:26:12 IST" duration-ms="20338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="modifyPerson()[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:26:12 IST" name="modifyPerson" finished-at="2021-03-31T17:26:55 IST" duration-ms="42550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyPerson -->
+        <test-method is-config="true" signature="close()[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:26:55 IST" name="close" finished-at="2021-03-31T17:26:55 IST" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:26:55 IST" name="invokeBrowser" finished-at="2021-03-31T17:27:15 IST" duration-ms="19768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="rehire()[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:27:15 IST" name="rehire" finished-at="2021-03-31T17:27:57 IST" duration-ms="41547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rehire -->
+        <test-method is-config="true" signature="close()[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:27:57 IST" name="close" finished-at="2021-03-31T17:27:58 IST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:27:58 IST" name="invokeBrowser" finished-at="2021-03-31T17:28:17 IST" duration-ms="19895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="termination()[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:28:17 IST" name="termination" finished-at="2021-03-31T17:28:57 IST" duration-ms="39404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termination -->
+        <test-method is-config="true" signature="close()[pri:0, instance:source_package.Base@69453e37]" started-at="2021-03-31T17:28:57 IST" name="close" finished-at="2021-03-31T17:28:58 IST" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- source_package.Base -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2021-03-31T17:28:59 IST" name="EdgeTest" finished-at="2021-03-31T17:35:48 IST" duration-ms="409108">
+      <class name="source_package.Base">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:28:59 IST" name="invokeBrowser" finished-at="2021-03-31T17:29:24 IST" duration-ms="24599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="changeDepartment()[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:29:24 IST" name="changeDepartment" finished-at="2021-03-31T17:30:07 IST" duration-ms="42984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeDepartment -->
+        <test-method is-config="true" signature="close()[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:30:07 IST" name="close" finished-at="2021-03-31T17:30:08 IST" duration-ms="1479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:30:08 IST" name="invokeBrowser" finished-at="2021-03-31T17:30:35 IST" duration-ms="27161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="employeePaidLeave()[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:30:35 IST" name="employeePaidLeave" finished-at="2021-03-31T17:31:24 IST" duration-ms="48655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeePaidLeave -->
+        <test-method is-config="true" signature="close()[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:31:24 IST" name="close" finished-at="2021-03-31T17:31:25 IST" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:31:25 IST" name="invokeBrowser" finished-at="2021-03-31T17:31:49 IST" duration-ms="23586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="employeeReturnFromPaidLeave()[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:31:49 IST" name="employeeReturnFromPaidLeave" finished-at="2021-03-31T17:32:28 IST" duration-ms="39480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeReturnFromPaidLeave -->
+        <test-method is-config="true" signature="close()[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:32:28 IST" name="close" finished-at="2021-03-31T17:32:31 IST" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:32:31 IST" name="invokeBrowser" finished-at="2021-03-31T17:32:57 IST" duration-ms="26806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="modifyPerson()[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:32:57 IST" name="modifyPerson" finished-at="2021-03-31T17:33:40 IST" duration-ms="42559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyPerson -->
+        <test-method is-config="true" signature="close()[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:33:40 IST" name="close" finished-at="2021-03-31T17:33:41 IST" duration-ms="1510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:33:41 IST" name="invokeBrowser" finished-at="2021-03-31T17:34:04 IST" duration-ms="22753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="rehire()[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:34:04 IST" name="rehire" finished-at="2021-03-31T17:34:46 IST" duration-ms="41490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rehire -->
+        <test-method is-config="true" signature="close()[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:34:46 IST" name="close" finished-at="2021-03-31T17:34:47 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:34:47 IST" name="invokeBrowser" finished-at="2021-03-31T17:35:07 IST" duration-ms="20604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="termination()[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:35:07 IST" name="termination" finished-at="2021-03-31T17:35:47 IST" duration-ms="39442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termination -->
+        <test-method is-config="true" signature="close()[pri:0, instance:source_package.Base@1757cd72]" started-at="2021-03-31T17:35:47 IST" name="close" finished-at="2021-03-31T17:35:48 IST" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- source_package.Base -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
